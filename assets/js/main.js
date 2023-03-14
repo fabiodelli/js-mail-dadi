@@ -59,6 +59,15 @@ console.log(insertMail);
 let maiList = ["rosso@hotmail.com","bianco@hotmail.com","blu@hotmail.com"]
 console.log (maiList)
 
+/* let canAccess= false
+for (let i = 0; i < array.length; i++) {
+  const maiList = maiList[i];
+  if(maiList === insertMail){
+    let canAccess= true
+    console.log(canAccess)
+    document.getElementById("output").innerHTML = "L'accesso è consentito.";
+  } */
+
 // controllo se la mail inserita è presente nell' array e inserisco l'output testuale adatto nel DOM.
 if (maiList.includes(insertMail)) {
   // Email autorizzata
@@ -68,6 +77,9 @@ if (maiList.includes(insertMail)) {
   document.getElementById("output").innerHTML = "L'accesso non è consentito.";
 }
 }
+
+
+
 
 // Dadi
 
