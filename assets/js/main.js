@@ -25,6 +25,15 @@ scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 
 //Strumenti
 
+//variables
+//function
+//getElementById
+//array
+//console.log
+//inner.HTML
+//Math.floor
+//Math.random
+
 //Procedimento
 
 //Mail
@@ -36,6 +45,8 @@ scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 //Dadi
 
 // Genero un numero casuale da 1 a 6 per il giocatore e per il computer e lo salvo in una variabile
+// Confronto i due numeri, stabilisco il vincitore e inserisco l'output testuale adatto nel DOM.
+
 
 
 //Codice
